@@ -116,8 +116,8 @@ docker-compose exec php composer install
 ## Запуск миграций и сидов
 
 ```bash id="migrate_seed_cmd"
-docker-compose exec php php database/migrate.php
-docker-compose exec php php database/seed.php
+docker-compose exec php php src/Database/migrate.php
+docker-compose exec php php src/Database/seed.php
 ```
 
 ---

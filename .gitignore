@@ -21,7 +21,7 @@ tmp/
 *.cache
 
 # Smarty compiled templates
-templates_c/
+templates_c/*
 
 # -----------------------
 # OS / Editor
