@@ -1,0 +1,49 @@
+.category {
+  margin-bottom: 60px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  &__link {
+    font-size: 12px;
+    color: $color-primary;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  &__description {
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: $color-muted;
+  }
+
+  &__controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+  }
+
+  &__sort {
+    color: $color-muted;
+
+    &.active {
+      color: $color-primary;
+      font-weight: 600;
+    }
+  }
+}

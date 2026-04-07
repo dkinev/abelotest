@@ -1,0 +1,44 @@
+.post {
+  max-width: 800px;
+  margin: 0 auto;
+
+  &__header {
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  &__meta {
+    display: flex;
+    gap: 15px;
+    font-size: 12px;
+    color: $color-muted;
+  }
+
+  &__image-wrapper {
+    margin: 20px 0;
+  }
+
+  &__image {
+    width: 100%;
+    border-radius: $radius;
+  }
+
+  &__description {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: $color-muted;
+  }
+
+  &__content {
+    font-size: 14px;
+    line-height: 1.7;
+
+    p {
+      margin-bottom: 15px;
+    }
+  }
+}
