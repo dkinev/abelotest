@@ -90,11 +90,14 @@ project/
 ├── src/
 │   ├── Controllers/
 │   ├── Database/
+│       ├── migrations/
+│       └── seeders/
 │   ├── Domains/
+│       ├── Category/
+│       └── Post/
 │   └── Views/
-├── database/
-│   ├── migrations/
-│   └── seeders/
+│       ├── scss/
+│       └── templates/
 ├── tests/
 ├── composer.json
 ├── docker-compose.yml
