@@ -107,8 +107,11 @@ project/
 ## Установка
 
 ```bash id="install_cmd"
+git clone git@github.com:dkinev/abelotest.git
+cd abelotest
+
 docker-compose up -d --build
-docker-compose exec php composer install
+docker-compose exec php composer update
 ```
 
 ---
